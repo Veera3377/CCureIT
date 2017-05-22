@@ -1,0 +1,28 @@
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+<!--sql injection attack-->
+<h2 style='color: blue;'>SQL INJECTION ATTACK</h2>
+<form method="GET" action="sqlin.php">
+<center> Search: <input type="text" id="userinput" name="userinput" width="400" height="400"></center>
+<input type="submit" name="submit" value="SUBMIT">
+</form>
+<hr/>
+<hr/>
+<!--xss attack-->
+<h2 style='color: blue;'>XSS ATTACK</h2>
+<form method="POST" action="insertfeed.php">
+Product : <input type="text" name="product" id="prod" width="500" height="500">
+<br>
+<br>
+<label>
+Feedback : <textarea rows="10" cols="100" name="feedback" id="feedback"></textarea></label>
+<br>
+<br>
+<input type="submit" name="submit" value="SUBMIT">
+</form>
+</body>
+</html>

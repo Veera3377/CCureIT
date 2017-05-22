@@ -1,0 +1,308 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cyber SECURITY</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		img
+		{
+			width:100px;
+			height:200px;
+		}
+		.page-bg{
+  		background:url('images/bg.jpg');
+  		background-repeat: no-repeat;
+  		background-size: 100%;
+  -webkit-filter: blur(3px);
+-moz-filter: blur(3px);
+-o-filter: blur(3px);
+-ms-filter: blur(3px);
+filter: blur(3px);
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+z-index:-1;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    color : black;
+    font-weight: bold;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+		</style>
+	</head>
+	<body class="subpage">
+		<div class="page-bg"></div>
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Cyber <span>SECURITY</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Scanner.php">Scanner</a></li>
+					<li><a href="elements.php">PES repository</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Section -->
+					<section class="wrapper">
+						<div class="inner">
+							<header class="align-center">
+								<h1 style="color:yellow;font-weight:bold;font-family:algerian;font-size:35px">VULNERABILITIES & ATTACKS</h1>
+								<p style="color:white;font-weight:bold;text-align:justify;">An assault on system security that derives from an intelligent
+      							threat, i.e., an intelligent act that is a deliberate attempt
+      							(especially in the sense of a method or technique) to evade
+      							security services and violate the security policy of a system.</p>
+							</header>
+							<div class="flex flex-2">
+								<div class="col col2">
+									<h3 style="color:yellow;font-weight:bold;text-align:justify;">A weakness of an asset or group of assets that can be exploited by one or more threats</h3>
+									<p style="color:white;font-weight:bold;text-align:justify;">In computer security, a vulnerability is a weakness which allows an attacker to reduce a system's information assurance. Vulnerability is the intersection of three elements: a system susceptibility or flaw, attacker access to the flaw, and attacker capability to exploit the flaw.To exploit a vulnerability, an attacker must have at least one applicable tool or technique that can connect to a system weakness. In this frame, vulnerability is also known as the attack surface.</p>
+									<p style="color:white;font-weight:bold;text-align:justify;">Vulnerability management is the cyclical practice of identifying, classifying, remediating, and mitigating vulnerabilities.This practice generally refers to software vulnerabilities in computing systems.</p>
+								</div>
+								<div class="col col1 first">
+									<div class="image round fit">
+										<a href="attack.html" class="link"><img src="images/2.gif" alt="" /></a>
+									</div>
+								</div>
+							</div>
+							<img src="images/webappsec.png" alt="" style="width:800px;height:500px"/>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section class="wrapper style1">
+						<div class="inner">
+							<header class="align-center">
+								<h2>POPULAR ONES!!</h2>
+								<p style="font-weight:bold;font-family:Calibri;color:blue;">Invincibility lies in the defence; the possibility of victory in the attack.</p>
+							</header>
+							<div class="flex flex-3">
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic03.jpg" alt="" />
+									</div>
+									<h3 style="font-weight:bold;color:blue;">SQL injection</h3>
+									<p style="color:blue;text-align:justify;">It is an attack which is similar to your friend asking you many questions and in each answer of yours she is arriving better information about the actual answer or the correct answer. </p>
+									<a href="#myModal" id="sqlone" class="button">Learn More</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic05.jpg" alt="" />
+									</div>
+									<h3 style="font-weight:bold;color:blue;">XSS attack</h3>
+									<p style="color:blue;text-align:justify;">XSS is a security breach that takes advantage of dynamically generated Web pages.Its like you purchasing a employee of your rival company making him reveal all the inside information or credentials so that you can defeat the company.</p>
+									<a href="#myModal" id = "xssone" class="button">Learn More</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic04.jpg" alt="" />
+									</div>
+									<h3 style="font-weight:bold;color:blue;">DOS attack</h3>
+									<p style="color:blue;text-align:justify;">Its like one student asking millions of doubts or questions to a teacher blocking other students from reaching out to that teacher.
+									This makes the teacher being stuck with that one student and denying to respond to queries or doubts of any other students in the class.</p>
+									<a href="#myModal" id="DOSone" class="button">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</section>
+
+			</div>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+
+  			<!-- Modal content -->
+  			<div class="modal-content">
+    			<div class="modal-header">
+      				<span class="close">&times;</span>
+      				<h2 id="contentheader"></h2>
+   				</div>
+    			<div class="modal-body">
+      				<p id="modalmain"></p>
+    			</div>
+    			<div class="modal-footer">
+      				<h3  id="contentfooter"></h3>
+    			</div>
+  			</div>
+
+			</div>
+			<!-- Modal code end-->
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					<ul class="icons" style="color:black;font-weight:bold">
+						<li><a style="color:black;font-weight:bold" href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a style="color:black;font-weight:bold" href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a style="color:black;font-weight:bold" href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a style="color:black;font-weight:bold" href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
+					</ul>
+					<p style="color:black;font-weight:bold">&copy;Sushma S,Veerabhadran B. All rights reserved. Design: <a style="color:blue;font-weight:bold" href="">TEMPLATED</a>. Images: <a style="color:blue;font-weight:bold" href="">CCureIt</a>.</p>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+			//Modal for sql injection error display
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("sqlone");
+var span = document.getElementsByClassName("close")[0];
+ 
+btn.onclick = function() {
+    modal.style.display = "block";
+    document.getElementById("modalmain").innerHTML = "<p>OVERVIEW : A SQL injection attack consists of insertion or 'injection' of a SQL query via the input data from the client to the application. A successful SQL injection exploit can read sensitive data from the database, modify database data (Insert/Update/Delete), execute administration operations on the database (such as shutdown the DBMS), recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system. SQL injection attacks are a type of injection attack, in which SQL commands are injected into data-plane input in order to effect the execution of predefined SQL commands.<p>\
+    <p>THREAT MODELING :\
+    <ul>\
+     <li>SQL injection attacks allow attackers to spoof identity, tamper with existing data, cause repudiation issues such as voiding transactions or changing balances, allow the complete disclosure of all data on the system, destroy the data or make it otherwise unavailable, and become administrators of the database server.<li>\
+<li>SQL Injection is very common with PHP and ASP applications due to the prevalence of older functional interfaces. Due to the nature of programmatic interfaces available, J2EE and ASP.NET applications are less likely to have easily exploited SQL injections.</li>\
+<li>The severity of SQL Injection attacks is limited by the attacker’s skill and imagination, and to a lesser extent, defense in depth countermeasures, such as low privilege connections to the database server and so on. In general, consider SQL Injection a high impact severity.</li></ul></p>";
+document.getElementById("contentheader").innerHTML = "SQL INJECTION";
+}
+// When the user clicks close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script>
+//Modal for XSS error display
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("xssone");
+var span = document.getElementsByClassName("close")[0];
+ 
+btn.onclick = function() {
+    modal.style.display = "block";
+    document.getElementById("modalmain").innerHTML = "<p>OVERVIEW : Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted web sites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.\
+An attacker can use XSS to send a malicious script to an unsuspecting user. The end user’s browser has no way to know that the script should not be trusted, and will execute the script. Because it thinks the script came from a trusted source, the malicious script can access any cookies, session tokens, or other sensitive information retained by the browser and used with that site. These scripts can even rewrite the content of the HTML page.</p>\
+<p>The 3 types of XSS are defined as follows:\
+<ul><li><span style='color:red'>STORED XSS </span>: Stored XSS generally occurs when user input is stored on the target server, such as in a database, in a message forum, visitor log, comment field, etc. And then a victim is able to retrieve the stored data from the web application without that data being made safe to render in the browser. With the advent of HTML5, and other browser technologies, we can envision the attack payload being permanently stored in the victim’s browser, such as an HTML5 database, and never being sent to the server at all.</li>\
+<li><span style='color:red'>REFLECTED XSS </span> : Reflected XSS occurs when user input is immediately returned by a web application in an error message, search result, or any other response that includes some or all of the input provided by the user as part of the request, without that data being made safe to render in the browser, and without permanently storing the user provided data. In some cases, the user provided data may never even leave the browser (see DOM Based XSS next).</li>\
+<li><span style='color:red'>DOM BASED XSS </span>: DOM Based XSS is a form of XSS where the entire tainted data flow from source to sink takes place in the browser, i.e., the source of the data is in the DOM, the sink is also in the DOM, and the data flow never leaves the browser. For example, the source (where malicious data is read) could be the URL of the page (e.g., document.location.href), or it could be an element of the HTML, and the sink is a sensitive method call that causes the execution of the malicious data (e.g., document.write).</li></ul></p>";
+document.getElementById("contentheader").innerHTML = "XSS ATTACK";
+}
+// When the user clicks close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script>
+//Modal for DOS error display
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("DOSone");
+var span = document.getElementsByClassName("close")[0];
+ 
+btn.onclick = function() {
+    modal.style.display = "block"; //(SOURCE OF INFORMATION: OWASP - OPEN WEB APPLICATION SECURITY PROJECT) - the project run by US
+    document.getElementById("modalmain").innerHTML = "<p>DESCRIPTION : The Denial of Service (DoS) attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. There are many ways to make a service unavailable for legitimate users by manipulating network packets, programming, logical, or resources handling vulnerabilities, among others. If a service receives a very large number of requests, it may cease to be available to legitimate users. In the same way, a service may stop if a programming vulnerability is exploited, or the way the service handles resources it uses.\
+Sometimes the attacker can inject and execute arbitrary code while performing a DoS attack in order to access critical information or execute commands on the server. Denial-of-service attacks significantly degrade the service quality experienced by legitimate users. These attacks introduce large response delays, excessive losses, and service interruptions, resulting in direct impact on availability.</p>\
+<p>RISK FACTORS : Risk factors can break down into multiple categories. Two principle sources of risk include inadequate resources and non-technical threat motivators.\
+The first example of a risk factor, inadequate resources, requires attention if system architecture was not designed to meet traffic demand overflows. This risk reduces the difficulty of successfully executing a DoS attack and can, left unchecked, result in DoS symptoms absent an actual attack.\
+The second example and perhaps the largest risk factor is not technical and is in the domain of public relations or strategic communications. An organization should avoid taking action that can make them a target of a DoS attack unless the benefits of doing so outweigh the potential costs or mitigating controls are in place.\
+Other risk factors may also exist depending on the specific environment\
+<p>EXAMPLES : \
+<ul><li><span style='color:red'>DoS User Specified Object Allocation </span>: If users can supply, directly or indirectly, a value that will specify how many of an object to create on the application server, and if the server does not enforce a hard upper limit on that value, it is possible to cause the environment to run out of available memory. </li>\
+<li><span style='color:red'>DoS Buffer Overflows </span>: Any language where the developer has direct responsibility for managing memory allocation, most notably C & C++, has the potential for a Buffer Overflow. While the most serious risk related to a buffer overflow is the ability to execute arbitrary code on the server, the first risk comes from the denial of service that can happen if the application crashes.</li>\
+<li><span style='color:red'>DoS Storing too Much Data in Session</span> : Care must be taken not to store too much data in a user session object. Storing too much information in the session, such as large quantities of data retrieved from the database, can cause denial of service issues. This problem is exacerbated if session data is also tracked prior to a login, as a user can launch the attack without the need of an account.</li></ul></p>";
+document.getElementById("contentheader").innerHTML = "DOS ATTACK";
+}
+// When the user clicks close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+	</body>
+</html>
